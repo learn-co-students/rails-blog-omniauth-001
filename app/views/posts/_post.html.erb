@@ -4,5 +4,5 @@
   <p><%= link_to 'Edit', edit_post_path(post) %></p>
   <p><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></p>
 <% else %>
-  <p> <%= link_to "Log in to edit or delete your Post", login_path %> </p>
+  <p> <%= link_to "Log in to edit or delete your Post", github_login_path %> </p>
 <% end %>
