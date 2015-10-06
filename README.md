@@ -8,7 +8,7 @@ In our last iteration, we used Sessions and built our own log in system. Next, w
 
 ##Registering our App
 
-2. Before we do anything, we should register our app with Github, which will generate a `client id` and `client secret`, two strings that will let our application talk to Github via OAuth. Register your app [here](https://github.com/settings/applications/new) in your Github settings. Be sure to provide a callback URL, which will be a route/method on your controller that you'll be building out to make your user authorization call to Github.
+2. Before we do anything, we should register our app with Github, which will generate a client id and client secret, two strings that will let our application talk to Github via OAuth. Register your app [here](https://github.com/settings/applications/new) in your Github settings. Be sure to provide a callback URL, which will be a route/method on your controller that you'll be building out to make your user authorization call to Github.
 
 ##Figaro
 
