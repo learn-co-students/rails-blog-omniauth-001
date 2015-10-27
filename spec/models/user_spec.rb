@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe User do
   describe "#create_with_omniauth" do
-
+    
     let(:auth) {OmniAuth.config.mock_auth[:github]}
     
     it 'initializes new users from github' do
