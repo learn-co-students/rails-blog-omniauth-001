@@ -28,6 +28,4 @@ group :test, :development do
   gem "sqlite3", '~> 1.3.11'
   gem "pry", '~> 0.10.3'
   gem 'rack_session_access', '~> 0.1.1'
-  gem 'webmock'  
-  gem 'vcr'
 end
