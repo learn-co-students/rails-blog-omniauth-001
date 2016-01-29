@@ -67,4 +67,4 @@ Changes various views to display links to logging in via Github, using our `curr
 [Rails OmniAuth Github Tutorial](http://natashatherobot.com/rails-omniauth-github-tutorial/)
 
 
-<a href='https://learn.co/lessons/rails-blog-omniauth' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-blog-omniauth' title='Rails Blog: Signing in using Omniauth'>Rails Blog: Signing in using Omniauth</a> on Learn.co and start learning to code for free.</p>
