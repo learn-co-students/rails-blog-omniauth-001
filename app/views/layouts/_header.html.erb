@@ -1,0 +1,7 @@
+<% if @user %>
+  <%= "Welcome #{@user.name}" %><br><br>
+  <%= link_to("New Post", new_post_path) %><br>
+  <%= link_to("Log Out", '/logout') %>
+<% else %>
+  <%= link_to("Log In with Github", '/auth/github') %>
+<% end %>
