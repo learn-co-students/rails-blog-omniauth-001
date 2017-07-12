@@ -2,7 +2,7 @@
 
 This is the sixth iteration of our Blog App.
 
-<em>Before anything</em>, note that when you generate models, controllers, etc, be sure to include this option, so that it skips tests (which we already have): `--no-test-framework`
+***NOTE***: As with much of our Rails curriculum, remember to always use the `--no-test-framework` flag when you generate models, controllers, etc. That way, the Rails generators will not create additional tests on top of the test suite that already comes with the lesson. E.g., `rails g model User username:string email:string --no-test-framework`.
 
 In our last iteration, we used Sessions and built our own log in system. Next, we're going to refactor that and create a log in system using OmniAuth. A user should be able to log in / sign up using their Github account. Omniauth allows us to pass user authentication to a third party (like Facebook, Twitter, or Github) instead of having to save a user's login credentials on our database.
 
